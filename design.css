@@ -125,6 +125,42 @@ a:hover {
 
 /**
  *
+ * Table
+ *
+ */
+
+table {
+    border-collapse:  collapse;
+    width: 100%;
+}
+
+th,td {
+    border: solid 1px #666;
+    padding: 4px;
+}
+
+col.table-people-name-j {
+    width: 15%;
+}
+
+col.table-people-name-e {
+    width: 20%;
+}
+
+col.table-people-grade {
+    width: 15%;
+}
+
+col.table-people-email {
+    width: 20%;
+}
+
+col.table-people-office {
+    width: 10%;
+}
+
+/**
+ *
  * Footer
  *
  */
