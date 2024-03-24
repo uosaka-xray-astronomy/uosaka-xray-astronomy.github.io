@@ -5,10 +5,10 @@
  */
 
 :root {
-    --primary-backround-color: #F8F8F8;
-    --primary-color: #111;
+    --primary-backround-color: #111;
+    --primary-color: #EEE;
     --primary-width: 1080px;
-    --nav-border-color: #333;
+    --nav-border-color: #999;
 }
 
 body {
@@ -74,7 +74,7 @@ nav.top-bar a {
 
 h1 {
     margin-top: 120px;
-    border-bottom: solid 1px #555;
+    border-bottom: solid 1px #AAA;
     padding: 0.3em;
     text-align: center;
     font-family: sans-serif;
@@ -82,16 +82,15 @@ h1 {
 }
 
 h2{
-    border-left: solid 0.45em #336;
+    border-left: solid 0.45em #555;
     padding: 0.2em 0.2em 0.2em 0.4em;
-    background-color: #EEF;
-    color: #336;
+    background-color: #333;
     font-family: sans-serif;
     font-size: 120%;
 }
 
 h3{
-    border-bottom: solid 1px #CCC;
+    border-bottom: solid 1px #333;
     padding: 0.2em 0.2em 0.2em 0.4em;
     font-family: sans-serif;
     font-size: 100%;
@@ -103,18 +102,18 @@ div.table-of-contents p{
 }
 
 a:link {
-    color: #422;
+    color: #CCA;
     text-decoration: none;
 }
 
 a:visited {
-    color: #422;
+    color: #CCA;
     text-decoration: none;
 }
 
 a:hover {
-    background-color: #DDD;
-    color: #633;
+    background-color: #333;
+    color: #FFC;
     text-decoration: none;
 }
 
@@ -136,13 +135,13 @@ table {
 }
 
 th {
-    border: solid 1px #999;
+    border: solid 1px #666;
     padding: 4px;
-    background-color: #DDD;
+    background-color: #222;
 }
 
 td {
-    border: solid 1px #999;
+    border: solid 1px #666;
     padding: 4px;
 }
 
@@ -174,7 +173,7 @@ col.table-people-office {
 
 footer {
     margin: 36px 0;
-    border-top: solid 1px #666;
+    border-top: solid 1px #999;
     padding: 16px;
 }
 
@@ -186,13 +185,9 @@ footer {
 
 #home h1 {
     height: 250px;
-    border: solid 0px #000;
-    background-color: #111;
-    color: #CCC;
+    border: solid 1px #FFF;
+    background-color: #223;
     font-size: 200%;
-    width: 100vw;
-    box-sizing: border-box;
-    margin-left: calc(-50vw + 50%);
 }
 
 main#home-main {
@@ -204,11 +199,9 @@ section#home-news {
 
 #home-news h2 {
     margin: 1em auto;
-    border: none;
+    border-left: solid 0.4em #AAA;
     padding: 0.25em 0.25em 0.25em 0.75em;
-    text-align: center;
-    background-color: #444;
-    color: #EEE;
+    background-color: #333;
     font-family: sans-serif;
     font-size: 150%;
 }
