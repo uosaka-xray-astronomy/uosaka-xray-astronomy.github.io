@@ -233,7 +233,8 @@ footer {
     border: none;
     background-color: transparent;
     text-align: center;
-    font-size: 133%;
+    font-family: serif;
+    font-size: 110%;
     font-weight: bold;
     font-style: italic;
     color: #933;
@@ -257,8 +258,22 @@ footer {
     font-size: 150%;
 }
 
-#home-news li {
-    list-style: none;
-    font-size: 125%;
-    padding: 0.25em;
+#home-news table {
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+}
+
+#home-news td {
+    border: none;
+    padding: 4px;
+    vertical-align: top;
+}
+
+col.table-news-date {
+    width: 8em;
+}
+
+col.table-news-article {
+    
 }

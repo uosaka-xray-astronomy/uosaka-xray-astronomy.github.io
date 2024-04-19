@@ -38,11 +38,16 @@
       <section id="home-news">
         <h2>News</h2>
         <div id="app-news">
-          <div v-for="item in news_list.slice(0, home_news_capacity)" class="news-item">
-            <h3>{{ item.date }} | {{ item.title }}</h3>
-            <p v-html="item.article"></p>
-          </div>
-          </ul>
+          <table>
+            <colgroup>
+              <col class="table-news-date" />
+              <col class="table-news-article" />
+            </colgroup>
+            <tr v-for="item in news_list.slice(0, home_news_capacity)" class="news-item">
+              <td v-html="item.date"></td>
+              <td v-html="item.text"></td>
+            </tr>
+          </table>
         </div>
         <script type="application/javascript" src="./news_data.js"></script>
         <script type="module" src="./script_news.js"></script>
