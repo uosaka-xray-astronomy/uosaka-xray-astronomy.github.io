@@ -193,7 +193,7 @@ footer {
     position: relative;
     width: 100vw;
     box-sizing: border-box;
-    top: 120px;
+    top: 30px;
     margin-left: calc(-50vw + 50%);
     margin-bottom: 200px;
     height: 300px;
@@ -228,18 +228,8 @@ footer {
     color: #855;
 }
 
-#home-lead h2 {
-    border: none;
-    background-color: transparent;
-    text-align: center;
-    font-family: serif;
-    font-size: 120%;
-    font-weight: bold;
-    font-style: italic;
-    color: #833;
-}
-
 #home-lead p {
+    margin-top: 480px;
     font-size: 120%;
     font-weight: bold;
     font-style: italic;
