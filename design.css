@@ -143,7 +143,7 @@ table {
 th {
     border: solid 1px #999;
     padding: 4px;
-    background-color: #DDD;
+    background-color: #EEE;
 }
 
 td {
@@ -233,17 +233,17 @@ footer {
     background-color: transparent;
     text-align: center;
     font-family: serif;
-    font-size: 110%;
+    font-size: 120%;
     font-weight: bold;
     font-style: italic;
-    color: #933;
+    color: #833;
 }
 
 #home-lead p {
-    font-size: 110%;
+    font-size: 120%;
     font-weight: bold;
     font-style: italic;
-    color: #933;
+    color: #833;
 }
 
 #home-news h2 {
