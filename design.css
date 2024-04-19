@@ -34,13 +34,15 @@ body {
  */
 
 header {
+    --nav-bar-margin: 20px;
     --nav-bar-padding: 15px;
+    --header-box-height: 100px;
     position: fixed;
     top: 0px;
     z-index: 99;
     width: 100%;
     max-width: var(--primary-width);
-    height: 100px;
+    height: var(--header-box-height);
     margin: 0px auto;
 }
 
@@ -49,13 +51,13 @@ div.header-box {
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 100px;
+    height: var(--header-box-height);
     z-index: -10;
     background-color: var(--primary-backround-color);
 }
 
 nav.top-bar {
-    margin-top: var(--nav-bar-padding);
+    margin-top: var(--nav-bar-margin);
     border-top: solid 1px var(--nav-border-color);
     border-bottom: solid 1px var(--nav-border-color);
     background-color: var(--primary-backround-color);
@@ -88,7 +90,7 @@ nav.top-bar a {
  */
 
 h1 {
-    margin-top: 120px;
+    margin-top: 100px;
     border-bottom: solid 1px #555;
     padding: 0.3em;
     text-align: center;
@@ -209,7 +211,7 @@ footer {
     position: relative;
     width: 100vw;
     box-sizing: border-box;
-    top: 120px;
+    top: 100px;
     margin-left: calc(-50vw + 50%);
     margin-bottom: 200px;
     height: 300px;
