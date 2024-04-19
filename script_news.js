@@ -8,7 +8,7 @@ const app = createApp({
     };
   },
   mounted() {
-    this.home_news_capacity = 8;
+    this.home_news_capacity = 20;
   }
 });
 
