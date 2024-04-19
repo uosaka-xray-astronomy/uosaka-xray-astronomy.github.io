@@ -38,6 +38,7 @@ header {
     position: fixed;
     top: 0px;
     z-index: 99;
+    width: 100%;
     max-width: var(--primary-width);
     height: 100px;
     margin: 0px auto;
