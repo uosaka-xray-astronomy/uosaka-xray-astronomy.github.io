@@ -42,6 +42,15 @@ header {
     max-width: var(--primary-width);
     height: 100px;
     margin: 0px auto;
+}
+
+div.header-box {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100px;
+    z-index: -10;
     background-color: var(--primary-backround-color);
 }
 
