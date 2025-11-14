@@ -1,6 +1,6 @@
 var oskxray = oskxray || {};
 oskxray.news_list =
-    [
+[
   {
     "date": "2025年11月14日",
       "text": "本研究室が開発に深く携わってきたX線偏光観測ミッションXL-Caliburにより、
